@@ -1,0 +1,358 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+[class*="fontawesome-"]:before{
+    font-family:"FontAwesome",sans-serif;
+}
+*{box-sizing:border-box}
+
+*, *:before, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ background-image:url('http://subtlepatterns.com/patterns/seamless_paper_texture.png');
+}
+
+.container{
+  width:95%;
+  height: auto;
+  
+  margin:30px auto;
+  padding: 35px;
+  text-align:center;
+}
+
+.heading_h2_mediumblue_underlined_cst{
+    color:#D4722A;
+    font-family: "Helvetica Neue LT Pro";
+    font-weight:bolder;
+    margin-top:40px;
+    font-size:15px;
+}
+
+.last-h5{
+   border-bottom:1px solid #555;
+}
+/* Frequently Asked Questions*/
+.header-h5 {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor:pointer;
+    border-top:1px solid #555;
+    border-left:1px solid #555;
+    border-right:1px solid #555;
+    background:#333;
+    -webkit-transition:background .5s;
+    -moz-transition: background .5s;
+    -ms-transition: background .5s;
+    -o-transition: background .5s;
+    transition: background .5s;
+}
+.img {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width:5%;
+}
+
+.question-Q {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Helvetica53-Extended";
+    font-size: 13px;
+    color:#E4E4E4;
+    
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 7px;
+}
+
+.answer-A {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Helvetica53-Extended";
+    font-size: 13px;
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 7px;
+}
+
+.question {
+    text-shadow:0 -1px 0 #292929;
+    color: #E4E4E4;
+    font-family: "Helvetica Neue LT Pro";
+    font-style:normal;
+    width:100%;
+    letter-spacing:0.8px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: normal;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-table;
+    line-height:22px;
+}
+
+.faq-p 
+{
+    margin:0 auto;
+    font-family: "Helvetica Neue LT Pro";
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-top: 1px solid #555;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+    font-size: 13px;
+    font-weight: normal;
+    color: #FFF;
+}
+.last-faq-p {
+  border-top: none;
+  border-bottom:1px solid #555;
+}
+.active{
+  background: rgba(0,0,0,0.5);
+  color:#fff;
+}
+
+.btn-orange {
+  font-family: 'Montserrat', sans-serif;
+  height:40px;
+  line-height:1.7em;
+  position:relative;
+  padding:10px 20px 10px 20px;
+  background-color:#d67b37;
+  text-decoration:none;
+  color:#ecf0f1;
+  box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3);
+  display:block;
+}
+
+.overlay{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(100,100,100,0.8);
+    width:100%;
+    height:100%;
+}
+
+.frame{
+    display:none;
+    position:fixed;
+    background-color:#fff;
+    margin-top:200px;
+    left:5%;
+    width:90%;
+    height:40%;
+    padding:5px 15px;
+    border-radius:15px;
+    box-shadow: 0 0 20px 0 #303030;
+}
+
+.title{
+    margin-left:auto;
+    font-size:18px;
+        
+}
+
+
+@media only screen and (min-width:560px) and (max-width:2000px){
+ 
+.overlay{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(100,100,100,0.8);
+    width:100%;
+    height:100%;
+}
+
+.frame{
+    display:none;
+    position:fixed;
+    background-color:#fff;
+    margin-top:200px;
+    left:23%;
+    width:55%;
+    height:280px;
+    padding:5px 15px;
+    border-radius:15px;
+    box-shadow: 0 0 20px 0 #303030;
+}
+
+.title{
+    margin-left:17.5%;
+    font-size:18px;
+        
+}
+    *{box-sizing:border-box}
+
+*, *:before, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ background-image:url('http://subtlepatterns.com/patterns/seamless_paper_texture.png');
+}
+
+.container{
+  width:95%;
+  height: auto;
+  margin-top:10%;
+  margin:30px auto;
+  padding: 35px;
+  text-align:center;
+}
+
+.heading_h2_mediumblue_underlined_cst{
+    color:#D4722A;
+    font-family: "Helvetica Neue LT Pro";
+    font-weight:bolder;
+    margin-top:40px;
+    font-size:15px;
+}
+
+.last-h5{
+   border-bottom:1px solid #555;
+}
+/* Frequently Asked Questions*/
+.header-h5 {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor:pointer;
+    border-top:1px solid #555;
+    border-left:1px solid #555;
+    border-right:1px solid #555;
+    background:#333;
+    -webkit-transition:background .5s;
+    -moz-transition: background .5s;
+    -ms-transition: background .5s;
+    -o-transition: background .5s;
+    transition: background .5s;
+}
+    .faq-p 
+{
+    margin:0 auto;
+    font-family: "Helvetica Neue LT Pro";
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid #555;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+    font-size: 15px;
+    font-weight: normal;
+    color: #FFF;
+}
+    .answer-A {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Helvetica53-Extended";
+    font-size: 17px;
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 7px;
+}
+
+    .btn-orange {
+  font-family: 'Montserrat', sans-serif;
+  margin-top:3em;
+  height:55px;
+  line-height:2.1em;
+  position:relative;
+  padding:10px 20px 10px 20px;
+  background-color:#d67b37;
+  text-decoration:none;
+  color:#ecf0f1;
+  box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3);
+  display:block;
+}
+    .heading_h2_mediumblue_underlined_cst{
+    color:#D4722A;
+    font-family: "Helvetica Neue LT Pro";
+    font-weight:100;
+    margin-top:40px;
+    font-size:40px;
+}
+    .img {
+    display: inline-block;
+    margin-right: 10px;
+    width:auto;
+    vertical-align: middle;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.question-Q {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Helvetica53-Extended";
+    font-size: 17px;
+    color:#E4E4E4;
+    
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 7px;
+}
+
+.question {
+    text-shadow:0 -1px 0 #292929;
+    color: #E4E4E4;
+    font-family: "Helvetica Neue LT Pro";
+    font-style:normal;
+    width:35%;
+    letter-spacing:0.8px;
+    vertical-align: middle;
+    font-size: 17px;
+    font-weight: normal;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-table;
+    line-height:22px;
+}
+}

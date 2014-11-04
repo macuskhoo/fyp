@@ -1,0 +1,445 @@
+/* CSS design by @jofpin */
+@import url("http://fonts.googleapis.com/css?family=Raleway|Varela+Round|Coda");
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+body {
+  background: #eee;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+    .containbadge{
+    margin-top:100px;
+}
+before { content: "\1F53F" }
+@media screen and (min-width:0px) and (max-width:800px){
+    .containbadge{
+    margin-top:0px;
+}
+}
+@media screen and (min-width:600px) and (max-width:2000px){
+
+ul {
+  width: 80%;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  margin-top:100px;
+}
+
+li {
+  display: block;
+  margin-bottom:12px
+}
+
+
+.detail {
+  width: 100%;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  height:120px;
+}
+
+.open .detail {
+  background: #333;
+  color: #ccc;
+  border-bottom: 0;
+}
+
+.detail .pic {
+  float: left;
+  left: 10px;
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+}
+
+.detail .text {
+  left: 20px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 70%;
+  font-size:14px;
+}
+
+.detail .text .badge{
+    font-size:24px;
+    background-color:#26C085;
+}
+
+.detail .text .school{
+    font-size:20px;
+    margin-top:5px;
+   border:solid 1px #FF9E08;
+   text-align:center;
+   
+}
+
+.detail .text span {
+  display: block;
+  font-weight: bold;
+  font-size:30px;
+}
+
+.open .detail .text span {
+  color: #fff;
+}
+
+.toolbar {
+  width: 100%;
+  background: #222;
+  height: 0;
+  position: relative;
+  transition: height 0.2s ease-in-out;
+  perspective: 200px;
+  overflow: hidden;
+}
+
+.open .toolbar {
+  width: 100%;
+  height: 40px;  
+}
+
+.fold-top, .fold-bottom {
+  height: 20px;
+  width: 312px;
+  left: 4px;
+  position: absolute;
+  transition: all 0.22s ease-in-out;
+}
+
+.open .fold-top, .open .fold-bottom {
+  background: #5c5c5c;
+  transform: rotateX(0deg);
+  width: 100%;
+  left: 0;
+}
+
+.fold-top {
+  transform-origin: top center;
+  transform: rotateX(-90deg);
+  top: 0;
+  background: #444;
+}
+
+.fold-bottom {
+  transform-origin: bottom center;
+  transform: rotateX(90deg);
+  bottom: 0;
+  background: #666;
+}
+
+.icons {
+  position: absolute;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  transform: rotateX(60deg);
+}
+
+.icons span {
+  margin-left: 35px;
+  cursor: pointer;
+  margin-right:10px;
+}
+
+.open .icons {
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+}
+@media screen and (min-width:220px) and (max-width:599px){
+    .detail .text .badge{
+    font-size:20px;
+    background-color:#26C085;
+}
+
+.detail .text .school{
+    font-size:16px;
+    margin-top:5px;
+   border:solid 1px #FF9E08;
+   text-align:center;
+   
+}
+ul {
+  width: 320px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+li {
+  display: block;
+}
+
+
+.detail {
+  width: 100%;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.open .detail {
+  background: #333;
+  color: #ccc;
+  border-bottom: 0;
+}
+
+.detail .pic {
+  float: left;
+  left: 10px;
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+}
+
+.detail .text {
+  left: 20px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 225px;
+}
+
+.detail .text span {
+  display: block;
+  font-weight: bold;
+  font-size:20px;
+}
+
+.open .detail .text span {
+  color: #fff;
+}
+
+.toolbar {
+  width: 100%;
+  background: #222;
+  height: 0;
+  position: relative;
+  transition: height 0.2s ease-in-out;
+  perspective: 200px;
+  overflow: hidden;
+}
+
+.open .toolbar {
+  width: 100%;
+  height: 80px;  
+}
+
+.fold-top, .fold-bottom {
+  height: 20px;
+  width: 312px;
+  left: 4px;
+  position: absolute;
+  transition: all 0.22s ease-in-out;
+}
+
+.open .fold-top, .open .fold-bottom {
+  background: #5c5c5c;
+  height:80px;
+  transform: rotateX(0deg);
+  width: 100%;
+  left: 0;
+}
+
+.fold-top {
+  transform-origin: top center;
+  transform: rotateX(-90deg);
+  top: 0;
+  background: #444;
+}
+
+.fold-bottom {
+  transform-origin: bottom center;
+  transform: rotateX(90deg);
+  bottom: 0;
+  background: #666;
+}
+
+.icons {
+  position: absolute;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  transform: rotateX(60deg);
+}
+
+.icons span {
+  margin-left: 35px;
+  cursor: pointer;
+  margin-right:10px;
+}
+
+.open .icons {
+  opacity: 1;
+ 
+  transform: rotateX(0deg);
+}
+}
+body {
+  background-image:url('http://subtlepatterns.com/patterns/seamless_paper_texture.png');
+
+}
+
+.btn-red {
+  float:center;
+  position:absolute;
+  padding:10px 20px 10px 20px;
+  background-color:#c0392b;
+  text-decoration:none;
+  color:#ecf0f1;
+  box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3);
+  display:block;
+  font-family: 'Montserrat', sans-serif
+}
+
+
+.btn-green {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  width:65%;
+    text-align:center;
+    line-height:2em;
+    height:57px;
+    margin-left:110px;
+    font-size:20px;
+  padding:10px 20px 10px 20px;
+  background-color:#27ae60;
+  text-decoration:none;
+  color:#ecf0f1;
+  box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3);
+  display:block;
+}
+
+.btn-orange {
+  font-family: 'Montserrat', sans-serif;
+  margin-top:6em;
+  float:center;
+  position:absolute;
+  padding:10px 20px 10px 20px;
+  background-color:#d35400;
+  text-decoration:none;
+  color:#ecf0f1;
+  box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3);
+  display:block;
+}
+
+
+.btn-red {
+    
+  float:center;
+  position:absolute;
+  padding:10px 20px 10px 20px;
+  background-color:#c0392b;
+  text-decoration:none;
+  color:#ecf0f1;
+  box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3);
+  display:block;
+  font-family: 'Montserrat', sans-serif
+}
+
+
+.btn-blue {
+  margin-top:9em;
+  float:center;
+  position:absolute;
+  padding:10px 20px 10px 20px;
+  background-color:#2980b9;
+  text-decoration:none;
+  color:#ecf0f1;
+  box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3);
+  display:block;
+  font-family: 'Montserrat', sans-serif
+}
+
+.btn-blue:hover {
+  background-color:#3498db;
+}
+
+.btn-blue:active {
+  box-shadow:inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#overlay{
+    display:none;
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:black;
+    opacity:0.7;
+}
+
+#frame{
+    display:none;
+    position:fixed;
+    background-color:white;
+    left:23%;
+    width:55%;
+    height:65%;
+    
+}
+.tooltip {
+      background-color: #F0F0F0;
+      border: 1px solid #E0E0E0;
+      color: #202020;
+	    display: none;
+	    max-width: 200px;
+      padding: 4px 8px;
+      position: absolute;    
+      z-index: 20000;	
+    }
+    
+    .paperplane{
+        display:none;
+    }
+    
+    #progress-1{
+        display:none;
+    }
+    #bucket{
+        display:none;
+    }
+    #trophy{
+        display:none;
+    }
+    #flash{
+        display:none;
+    }
+    #heart{
+        display:none;
+    }
+    #cd{
+        display:none;
+    }
+    #doc-text{
+        display:none;
+    }
+    #back{
+        display:none;
+    }

@@ -1,0 +1,45 @@
+body {
+  background: #151515;
+}
+
+.ribbon {
+
+  position: relative;
+  
+  width:300px;
+  height:100px;
+  line-height:100px;  
+  
+  margin: 20px auto;
+  
+  background: #bf2a2a;
+  color: white;
+  text-shadow: 0 -1px 0 black;
+  font-size:3em;
+  text-align: center;
+
+}
+.ribbon:before {
+  
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-top: 50px solid #bf2a2a;
+  border-bottom: 50px solid #bf2a2a;
+}
+/*
+div.example {
+  width: 30px;
+  height: 10px;
+  border-top: 50px solid red;
+  border-bottom: 50px solid green;
+  border-left: 30px solid blue;
+
+
+  margin:20px auto;
+}
+*/

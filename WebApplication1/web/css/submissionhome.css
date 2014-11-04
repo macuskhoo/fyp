@@ -1,0 +1,336 @@
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+    @import url(http://fonts.googleapis.com/css?family=Titillium+Web:600);
+body {
+    background-color: #1d2229;
+   background-image:url('http://subtlepatterns.com/patterns/seamless_paper_texture.png');
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1em;
+}
+
+.as{
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    cursor:pointer;
+}
+
+.as:hover{
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+
+ul {
+    display: block;
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top:100px;
+    padding:0;
+}
+
+ul li {
+ list-style-type: none;
+  width: 100%;
+  margin-bottom:25px;
+}
+
+.as{
+    display: block;
+    font-size: 1.75em;
+    line-height: 3em;
+    height:90px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.as:hover{
+    background-color: #f1f1f1;
+    color: #333333;
+    text-decoration: underline;
+}
+
+ul li .ocean {
+    border: 3px solid #114477;
+}
+ul li .ocean:hover {
+    background-color: #114477;
+    color: #ababab;
+}
+ul li .sea {
+    border: 3px solid #336699;
+}
+
+ul li .submission{
+    font-size:14px;
+    margin-top:-45px;
+    margin-bottom:-15px;
+}
+ul li .sea:hover {
+    background-color: #336699;
+}
+ul li .reef {
+    border: 3px solid #658B9E;
+}
+ul li .reef:hover {
+    background-color: #658B9E;
+}
+ul li .beach {
+    border: 3px solid #C9D4A7;
+}
+ul li .beach:hover {
+    background-color: #C9D4A7;
+}
+ul li .dune {
+    border: 3px solid #FBF9AC;
+}
+ul li .dune:hover {
+    background-color: #FBF9AC;
+}
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+    ul li {
+        font-size: 0.9em;
+        width: 100%;
+        margin-left:5%;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1800px){
+.user-profile {
+    margin: 0 auto;
+    margin-right:auto;
+    width: 95%; 
+    height: 11em;
+    position:relative;
+    border-radius: .3em;
+    margin-bottom:90px;
+}
+#lock{
+        z-index:0;
+        color:black !important;
+        left:90%;
+        opacity:0.5;
+        margin-top:-1.5% !important;
+    }
+    
+    #tick{
+        z-index:0;
+        color:green !important;
+        left:90%;
+        opacity:0.5;
+        margin-top:-1.5% !important;
+        display:none;
+    }
+}
+@media screen and (min-width:0px) and (max-width:767px){
+    .user-profile {
+    margin: -3%;
+    margin-right:auto;
+    width: 95%; 
+    height: 11em;
+    position:relative;
+    border-radius: .3em;
+    margin-bottom:90px;
+}
+#lock{
+        z-index:0;
+        left:90%;
+        opacity:0.5;
+        color:black !important;
+        font-size:38px !important;
+    }
+    #tick{
+        z-index:0;
+        color:green !important;
+        left:90%;
+        opacity:0.5;
+        font-size:38px !important;
+        display:none;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    ul li {
+        font-size: 0.9em;
+        margin-left:5%;
+        width: 100%;
+    }
+
+    
+.all:hover a 
+{
+    opacity: 1.0;
+
+
+
+}
+.all:hover a {
+    opacity: 0.5; 
+
+}
+.all:hover a:hover {
+    opacity: 1;
+
+
+}
+
+
+.all:active a 
+{
+    opacity: 1.0;
+}  
+.all:active a {
+    opacity: 0.5;
+}
+.all:active a:active {
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 1.2em;
+}
+
+.btn-blue {
+    margin-top:9em;
+    float:center;
+    position:absolute;
+    padding:10px 20px 10px 20px;
+    background-color:#2980b9;
+    text-decoration:none;
+    color:#ecf0f1;
+    box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3);
+    display:block;
+    font-family: 'Montserrat', sans-serif
+}
+#message 
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    padding:30px;
+    margin-top:30px;
+
+
+}
+
+
+
+#first  { 
+    list-style: none;
+    margin-left: auto;
+    margin-right:auto;
+    width: 45%; 
+    padding: 0 10px 0 0; 
+}
+#second{
+    display:none;
+    list-style: none;
+    margin-left: auto;
+    margin-right:auto;
+    width: 45%; 
+    padding: 0 10px 0 0; 
+}
+#third{
+    display:none;
+    list-style: none;
+    margin-left: auto;
+    margin-right:auto;
+    width: 45%; 
+    padding: 0 10px 0 0; 
+}
+#forth{
+    display:none;
+    list-style: none;
+    margin-left: auto;
+    margin-right:auto;
+    width: 45%; 
+    padding: 0 10px 0 0; 
+}
+#fifth{
+    display:none;
+    list-style: none;
+    margin-left: auto;
+    margin-right:auto;
+    width: 45%; 
+    padding: 0 10px 0 0; 
+}
+
+
+
+.all a 
+{ 
+    text-decoration: none; 
+    display: block; 
+    padding: 18px;
+    background: #1d252c; 
+    border-radius: 3px; 
+    color: #6b7278; 
+    text-align: center;
+    margin: 0 0 3px 0; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: bold;
+
+
+
+
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+
+}
+
+.all:hover a 
+{
+    opacity: 1.0;
+
+
+
+}
+.all:hover a {
+    opacity: 0.5; 
+
+}
+.all:hover a:hover {
+    opacity: 1;
+
+
+}
+
+
+.all:active a 
+{
+    opacity: 1.0;
+}  
+.all:active a {
+    opacity: 0.5;
+}
+.all:active a:active {
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+

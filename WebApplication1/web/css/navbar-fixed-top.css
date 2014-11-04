@@ -1,0 +1,312 @@
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300);
+
+@import url(http://fonts.googleapis.com/css?family=League+Script);
+
+
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
+
+body{
+    margin:0 auto;  
+}
+
+.navigation{
+    background: #333 url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png');
+    width:100%;
+    height:60px;
+    text-align:center;
+    -webkit-box-shadow: 0px -1px 30px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px -1px 30px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px -1px 30px rgba(50, 50, 50, 0.75);
+}
+
+
+#title{
+    color:white;
+    text-decoration:none;
+    font-family:verdana;
+    padding-right:20px;
+    padding-left:20px;
+    line-height:25px;
+    padding-top:16px;
+    padding-bottom:16px;
+    transition:.1s;
+    margin-left:45%;
+    margin-right:10px;
+}
+
+@media only screen and (max-width: 560px) {
+#title:first-child{
+    margin-left:auto;
+    margin-right:auto;
+    color:#35AF20;
+    font-size:24px;
+    font-family:"Titillium Web", helvetica;
+}
+}
+
+@media only screen and (min-width:561px) and  (max-width: 2000px){
+#title:first-child{
+    margin-left:auto;
+    margin-right:auto;
+    line-height:25px;
+    margin-bottom:60px;
+    color:#35AF20;
+    font-size:32px;
+    font-family:"Titillium Web", helvetica;
+}
+} 
+
+
+a.social{
+    color:white;
+    text-decoration:none;
+    padding-right:10px;
+    padding-left:10px;
+    line-height:50px;
+    padding-top:19px;
+    padding-bottom:18px;
+    transition:.1s;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+a.social:hover{
+    padding-bottom:26px;
+}
+
+a.social:active{
+    Padding-bottom:33px;  
+}
+#g{
+    padding-left:9px;
+    padding-right:7px;
+}
+#fb{
+    padding-right:14px;
+}
+#tw{
+    margin-left:21%;
+    padding-left:8px;
+    padding-right:8px;
+}
+
+#fb:hover{
+    background:#3b5998;
+
+}
+
+#tw:hover{
+    background:#00aced;  
+
+}
+
+#db:hover{
+    background:#ff0084;
+
+}
+
+#g:hover{
+    background:#dd4b39;  
+
+}
+h1{
+    margin-top:100px;
+    display:inline-block;
+    font-family:'josefin sans';
+    font-size:50px;
+    letter-spacing:2px;
+}
+
+#abovenav{
+    width:100%;
+    background:#333;
+    height:50px;
+}
+
+.container {
+    max-height:400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:0;
+    padding:0px;
+}
+@media (min-width: 768px) {
+    .container {
+        width:100%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width:100%;
+        margin-top:50px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width:100%;
+        margin-top:100px;
+    }
+}
+
+.jumbotron {
+    border-bottom:1px solid #2C2C2C;
+    border-top:1px solid #2C2C2C;
+    color: #363636;
+    max-height:178px;
+    background-color:   #E9EBEA;
+    -webkit-box-shadow: 0px -1px 30px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px -1px 30px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px -1px 30px rgba(50, 50, 50, 0.75);
+
+}
+.jumbotron h11,
+.jumbotron .h11 {
+    color: inherit;
+    font-family:"Myriad Pro ";
+    font-size:36px;
+    bottom-margin:0px;
+    bottom-padding:0px;
+    letter-spacing:1px;
+    font-weight:900;
+    width:100%;
+    height:100%;
+}
+.jumbotron p {
+    margin-top:0px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 200;
+    font-family:"Helvetica Neue LT Pro";
+    font-spacing:0px;
+    max-width:1000px;
+}
+
+.jumbotron > badges {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url("asdf.jpg");
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    display:inline-block;
+    float:right;
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.badges > img{
+    display:block;
+    width:200px;
+    float:right;
+}
+
+
+.jumbotron > hr {
+    border-top-color: #d5d5d5;
+}
+.container .jumbotron {
+    border-radius: 6px;
+}
+.jumbotron .container {
+    max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    .container .jumbotron {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .jumbotron h1,
+    .jumbotron .h1 {
+        font-size: 48px;
+    }
+}
+
+.mm-page >  .navigation  .home{
+      text-decoration:none;
+      top:10px;
+      position:absolute;
+      z-index:2;
+      margin-top:10px;
+      margin-left:10px;
+  }
+  
+  .ahome{
+            text-decoration:none;
+      top:10px;
+      position:absolute;
+      z-index:2;
+      margin-top:10px;
+      margin-left:10px;
+  }
+  
+
+@media only screen and (max-width: 768px) {
+.fa{
+    font-weight:normal !important;
+    font-style:normal !important;
+    font-size:30px !important;
+    position:absolute !important;
+    margin-top:-9px !important;
+    color:#CBCBCB !important;
+    text-decoration:none !important;
+}
+   .mm-page > .navigation > a{
+   text-decoration:none;
+      top:10px;
+      position:absolute;
+      z-index:2;
+      margin-top:10px;
+      right:45px;
+}
+
+
+}
+
+@media only screen and (min-width:768px) and  (max-width: 2000px){
+    .fa{
+        font-weight:normal !important;
+        font-style:normal !important;
+    font-size:60px !important;
+    position:absolute !important;
+    color:#CBCBCB !important;
+    margin-top:-14px !important;
+    text-decoration:none !important;
+    
+}
+       .mm-page > .navigation > a{
+   text-decoration:none;
+      top:10px;
+      position:absolute;
+      z-index:2;
+      margin-top:15px;
+      right:75px;
+}
+
+}    
+
+
+
+@media only screen and (min-width: 799px) and (min-device-width:799px){
+    .navigation{
+        display:none;
+    background: #333 url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png');
+    width:100%;
+    margin-bottom:60px;
+    height:80px;
+    -webkit-box-shadow: 0px -1px 30px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px -1px 30px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px -1px 30px rgba(50, 50, 50, 0.75);
+}
+
+}

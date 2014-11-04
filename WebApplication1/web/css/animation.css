@@ -1,0 +1,241 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url("http://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+One");
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  
+}
+
+
+.entypo-flash{
+    display:none;
+    position:relative;
+    top:-3px;
+    font-size:30px;
+    
+}
+
+.entypo-cd{
+    display:none;
+    top:-3px;
+    position:relative;
+    font-size:30px;
+    
+}
+
+
+
+
+
+
+
+.tk {
+    display:none;
+  float: right;
+  color: #B5B5B5;
+  font-weight: 200;
+  z-index:10;
+  margin-left:-15px;
+}
+@media screen and (min-width:0px) and (max-width:479px){
+    .name {
+    display:none;
+  width:100%;
+  top: -100px;
+  left: 0;
+  float :left;
+  z-index:10;
+}
+    .unlocked {
+    display:none;
+    margin-top:3px;
+  font: 20px Helvetica;
+    font-weight: bolder;
+   color: #DADADA;
+  position: relative;
+  z-index:10;
+   font-family: 'josefin sans';
+}
+.text {
+  width: 80%;
+   background-color:rgb(48, 48, 48);
+  display:none;
+  height: 40px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-position: center center;  
+  border-radius: 12px;
+  border: 2px solid #B5B5B5;
+  float: left;
+  margin-left: 10px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 18px 20px 14px 20px;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  z-index:10;
+}
+.achievement-pane {
+  display:none;
+  width: 90%;
+  height: 55px;
+  position: relative;
+  top:-700px;
+  z-index:10;
+}
+
+.icon {
+  opacity:0;
+  width: 15%;
+  height: 40px;
+    background-color:#c0392b;
+  left: 0px;
+  border-radius: 12px;
+  border: 2px solid #B04F0B;
+  float: left;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  position: relative;
+  z-index:10;
+}
+}
+@media screen and (min-width:480px) and (max-width:768px){
+       .name {
+    display:none;
+  width:100%;
+  top: -100px;
+  left: 0;
+  float :left;
+  z-index:10;
+}
+    .text {
+  width: 80%;
+   background-color:rgb(48, 48, 48);
+  display:none;
+  height: 40px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-position: center center;  
+  border-radius: 12px;
+  border: 2px solid #B5B5B5;
+  float: left;
+  margin-left: 10px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 18px 20px 14px 20px;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  z-index:10;
+}
+.achievement-pane {
+  display:none;
+  width: 90%;
+  height: 55px;
+  position: relative;
+  top:-700px;
+  z-index:10;
+}
+
+.icon {
+  opacity:0;
+  width: 15%;
+  height: 40px;
+  background-color:#c0392b;
+  left: 0px;
+  border-radius: 12px;
+  border: 2px solid #B04F0B;
+  float: left;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  position: relative;
+  z-index:10;
+}
+    .unlocked {
+    display:none;
+  font: 16px Helvetica;
+  font-weight: 700;
+   color: #DADADA;
+  position: relative;
+  z-index:10;
+   font-family: 'josefin sans';
+}
+}
+@media screen and (min-width:769px) and (max-width:1800px){
+   .entypo-cd{
+    display:none;
+    position:relative;
+    top:-3px;
+    font-size:50px;
+    left:40%;
+}
+    .entypo-flash{
+    display:none;
+    position:relative;
+    top:-3px;
+    font-size:50px;
+    margin-left:auto;
+    margin-right:auto;
+    left:40%;
+    
+}
+    .name {
+    display:none;
+  width:100%;
+  left: 0;
+  float :left;
+  z-index:10;
+}
+    .unlocked {
+    display:none;
+  font-size: 22px;
+  font-weight: 700;
+  color: #DADADA;
+  position: relative;
+  z-index:10;
+   font-family: 'josefin sans';
+}
+.text {
+  width: 80%;
+  background-color:rgb(48, 48, 48);
+  display:none;
+  height: 70px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-position: center center;  
+  border-radius: 12px;
+  border: 2px solid #B5B5B5;
+  float: left;
+  margin-left: 10px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 18px 20px 14px 20px;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  z-index:10;
+}
+.achievement-pane {
+  display:none;
+  width: 90%;
+  height: 85px;
+  position: relative;
+  top:-700px;
+  z-index:10;
+}
+
+.icon {
+  opacity:0;
+  width: 15%;
+  height: 70px;
+  background-color:#E04636;
+  left: 0px;
+  border-radius: 12px;
+  border: 2px solid #B04F0B;
+  float: left;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  position: relative;
+  z-index:10;
+}
+}
